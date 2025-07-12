@@ -64,7 +64,7 @@ export const Navbar: React.FC = () => {
                 <div className="flex items-center space-x-3">
                   <div className="flex items-center space-x-2">
                     <img
-                      src={user.avatar || 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150'}
+                      src={user.avatar_url || 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150'}
                       alt={user.name}
                       className="h-8 w-8 rounded-full object-cover"
                     />
@@ -131,7 +131,7 @@ export const Navbar: React.FC = () => {
                   <div className="space-y-2">
                     <div className="flex items-center space-x-3 px-3 py-2">
                       <img
-                        src={user.avatar || 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150'}
+                        src={user.avatar_url || 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150'}
                         alt={user.name}
                         className="h-8 w-8 rounded-full object-cover"
                       />
